@@ -33,13 +33,79 @@ body{
         line-height: 1.6;
     }
 }
+header{
+    .animate;
+    .hinge;
+    .fadeInDown;
+    font-family: @display;
+    color: #fff;
+    text-align: center;
+    padding: 65px 0;
+    h1{
+        text-transform: lowercase;
+        margin: 8px 0;
+        span{
+            display: block;
+            font-size: 14px;
+            font-style: italic;
+            color: rgba(255,255,255,0.8)
+        }
+    }
+    a{
+        color: @white;
+        text-decoration: none;
+    }
+    .contact{
+        width: 360px;
+        padding-top: 8px;
+        max-width: 95%;
+        margin: 0 auto;
+        border-top: 1px solid @faded-white;
+        overflow: hidden;
+    }
+    #address, #phone{
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    #address{
+        span{
+            display: block;
+        }
+    }
+    #phone{
+        margin-top: 7px;
+    }
+}
+blockquote{
+    display: block;
+    width: 95%;
+    margin: 20px auto 40px auto;
+    font-family: @display;
+    font-size: 30px;
+    text-align: center;
+}
 
 #main{
     background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+    font-family: @display;
+    font-size: 22px;
+    color: @grey;
+    margin: 0 0 5px 0;
+    line-height: 1;
+}
+p{
+    margin: 2px 0;
 }
 
 #footer{
@@ -47,9 +113,25 @@ body{
     border-top: 1px solid #fff;
     padding: 20px 0;
     #child-care-in-plano{
+        .animate;
+        .hinge;
+        .fadeInDown;
         display: block;
         .ir;
-        .at2x('../images/logo.png', 400px, 50px);
+        background: transparent url('../images/logo.png') no-repeat 50% 50%;
         background-size: 100%;
+        width: 200px; 
+        height: 50px;
+    }
+}
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-resolution: 192dpi) { 
+        
+    #footer{
+        #child-care-in-plano{
+            background-image: url('../images/logo@2x.png');
+        }
     }
 }
