@@ -23,6 +23,11 @@ Retina Mixin Autocompiler
 }
  */
  
+ div, header, section, nav{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
 
 body{
     background: #F3F3F3 url('../images/header.jpg') repeat-x 50% 0%;
@@ -36,7 +41,7 @@ body{
 header{
     .animate;
     .hinge;
-    .fadeInDown;
+    .fadeIn;
     font-family: @display;
     color: #fff;
     text-align: center;
@@ -91,8 +96,7 @@ blockquote{
     background: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-radius: 8px;
     -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
 }
@@ -115,9 +119,10 @@ p{
     #child-care-in-plano{
         .animate;
         .hinge;
-        .fadeInDown;
+        .fadeIn;
         display: block;
         .ir;
+        margin: 0 auto;
         background: transparent url('../images/logo.png') no-repeat 50% 50%;
         background-size: 100%;
         width: 200px; 
