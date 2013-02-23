@@ -25,37 +25,7 @@
 				<img class="no-mobile" src="images/contact.jpg">
 			</div> <!-- /sixcol -->
 			<div class="sixcol last">
-				
-				<form id="contact" action="http://app.websitetonight.com/wscoutils/wscoformmailer.asp" method="post">
-					<input type="hidden" id="MailRequestSubject" name="MailRequestSubject" value="Request from Child Care in Plano Texas - Contact Us page." />
-					<input type="hidden" id="MailRequestAddress" name="MailRequestAddress" value="Provider@childcareinplano.com" />
-					<input type="hidden" id="MailRequestName" name="MailRequestName" value="Little Angels Home Daycare" />
-					<input type="hidden" id="Redirect_URL" name="Redirect_URL" value="contactsent.php" />
-					<label>Name:</label>
-					<input id="MailFromName" maxlength="50" size="25" name="MailFromName" />
-					<label>Address 1:</label>
-					<input id="Address" maxlength="50" size="25" name="Address" />
-					<label>Address 2:</label>
-					<input id="Address 2" maxlength="50" size="25" name="Address (cont)" />
-					<label>City:</label>
-					<input id="City" maxlength="50" size="25" name="City" />
-					<label>State:</label>
-					<input id="State" maxlength="50" size="25" name="State" />
-					<label>Zip / Postal Code:</label>
-					<input id="Zip / Postal Code" maxlength="15" size="25" name="Zip / Postal Code" />
-					<label>Country:</label>
-					<input id="Country" maxlength="50" size="25" name="Country" />
-					<label>Phone Number:</label>
-					<input id="Phone" maxlength="15" size="25" name="Phone" />
-					<label>Email Address:</label>
-					<input id="MailFromAddress" maxlength="50" size="25" name="MailFromAddress" />
-					<label>Web Address/URL:</label>
-					<input id="WebAddress" maxlength="50" size="25" name="WebAddress" />
-					<label>Comments/Questions:</label>
-					<textarea id="Comments" name="Comments" rows="4" cols="25"></textarea>
-					<input id="submitForm" type="submit" value="Submit" name="submitForm" />
-				</form>
-				
+				<p class="headline">Thanks! Your message has been sent</p>
 			</div> <!-- /sixcol -->
 		</div> <!-- /row -->
 	</section>
