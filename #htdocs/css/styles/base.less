@@ -28,6 +28,11 @@ Retina Mixin Autocompiler
     -moz-box-sizing: border-box;
     box-sizing: border-box;
  }
+ iframe{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 body{
     background: #F3F3F3 url('../images/header.jpg') repeat-x 50% 0%;
@@ -37,6 +42,9 @@ body{
     p{
         line-height: 1.6;
     }
+}
+.no-mobile{
+    display: none;
 }
 header{
     .animate;
@@ -84,6 +92,7 @@ header{
     }
 }
 nav{
+    margin-bottom: 30px;
     ul{
         list-style-type: none;
         margin: 0;
@@ -144,7 +153,52 @@ blockquote{
 p{
     margin: 2px 0;
 }
-
+.contact-top{
+    span{
+        display: block;
+    }
+    a{
+        color: @black;
+        text-decoration: none;
+        &:hover{
+            color: @dark-purple;
+        }
+    }
+    iframe{
+        margin: 10px auto;
+    }
+    &.row{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+}
+#contact{
+    margin: 0;
+    width: 100%;
+    label, input{
+        display: block;
+        width: 90%;
+        text-align: left;
+    }
+    input{
+        outline: 0;
+        border: 1px solid rgba(0,0,0,0.4);
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    #submitForm{
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+        text-transform: uppercase;
+        background: @dark-purple;
+        font-weight: bold;
+        color: #fff;
+        height: 40px;
+    }
+}
 #footer{
     background: @black;
     border-top: 1px solid #fff;
