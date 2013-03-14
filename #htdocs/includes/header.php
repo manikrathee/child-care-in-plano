@@ -35,6 +35,7 @@
                     <li><a href="/" title="Child Care in Plano - Home">Home</a></li>
                     <li><a href="why-us.php" title="Why Choose Little Angel's Home Day Care">Why Us?</a></li>
                     <li><a href="certifications.php" title="Child Care in Plano - Certifications">Certifications</a></li>
+                    <li><a href="helpful-sites.php" title="Child Care in Plano - Helpful Sites">Helpful Sites</a></li>
                     <li><a href="contact.php" title="Child Care in Plano - Contact">Contact</a></li>
                 </ul>
             </nav>
