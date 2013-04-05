@@ -1,0 +1,111 @@
+body, html {
+	background-color: #FFFFFF;
+	font: small Verdana;
+}
+
+.Wrapper {
+	margin: auto;
+	width: 750px;
+}
+
+.PageHeader {
+	background: #E6E6FA url(../images/HeaderBackground.gif) top right no-repeat;
+	border: 1px solid #486D9E;
+	clear: both;
+	height: 88px;
+}
+
+.PageHeader h1 {
+	float: left;
+	font-size: 17px;
+	margin: 30px 0 0 10px;
+	width: 400px;
+}
+
+.PageHeader h2 {
+	color: #FFFFFF;
+	float: right;
+	font-size: medium;
+	margin-right: 25px;
+	margin-top: 18px;
+	width: 220px;
+}
+
+.SiteMenu {
+	background-color: #D8DADB;
+	border-bottom: 1px solid #486D9E;
+	clear: both;
+}
+
+.SiteMenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.SiteMenu li {
+	display: block;
+	float: left;
+}
+
+.SiteMenu a {
+	background: url(../images/MenuBullet.gif) center left no-repeat;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 5px;
+	padding: 3px 10px 3px 15px;
+	position: relative;
+	text-decoration: none;
+}
+
+.SiteMenu a:link, .SiteMenu a:visited {
+	color: #486D9E;
+}
+
+.SiteMenu a:hover, .SiteMenu a.Active {
+	color: #344F74;
+}
+
+.Content {
+	border: 1px solid #486D9E;
+	clear: both;
+}
+
+.Content h2 {
+	color: #486D9E;
+	font-size: medium;
+	text-align: center;
+}
+
+.ContentWrapper {
+	background: #EAEAEA url(../images/Background.gif) top left repeat-y;
+}
+
+.LeftColumn {
+	float: left;
+	width: 255px;
+}
+
+.MainContent {
+	float: left;
+	padding: 5px;
+	width: 475px;
+}
+
+.Copyright {
+	font-size: x-small;
+	text-align: right;
+}
+
+.Copyright p {
+	margin: 2px;
+}
+
+.Cleanup {
+	clear: both;
+	display: block;
+	font-size: 0px;
+	height: 0px;
+	line-height: 0px;
+}
