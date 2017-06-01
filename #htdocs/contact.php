@@ -2,7 +2,7 @@
 		<div class="row contact-top">
 			<div class="sixcol">
 				<p class="heading large">Contact Us Today!</p>
-				
+
 				<p class="heading">Address:</p>
 				<a id="address" href="https://maps.google.com/maps?q=3909+SANDIA+DRIVE+%09%09%09PLANO,+TEXAS+75023&hl=en&sll=40.07304,-74.724323&sspn=6.674385,10.316162&hnear=3909+Sandia+Dr,+Plano,+Collin,+Texas+75023&t=m&z=17" title="Little Angels Home Day Care - 3909 Sandia Drive, Plano, Texas 75023">
 				    <span>Little Angels Home Daycare</span>
@@ -25,12 +25,28 @@
 				<img class="no-mobile" src="images/contact.jpg">
 			</div> <!-- /sixcol -->
 			<div class="sixcol last">
-				
-				<form id="contact" action="http://app.websitetonight.com/wscoutils/wscoformmailer.asp" method="post">
-					<input type="hidden" id="MailRequestSubject" name="MailRequestSubject" value="Request from Child Care in Plano Texas - Contact Us page." />
-					<input type="hidden" id="MailRequestAddress" name="MailRequestAddress" value="Provider@childcareinplano.com" />
-					<input type="hidden" id="MailRequestName" name="MailRequestName" value="Little Angels Home Daycare" />
-					<input type="hidden" id="Redirect_URL" name="Redirect_URL" value="contactsent.php" />
+
+        <form id="contact-form" name="contactform" method="post" action="/mailer.php">
+          <label for="first_name">First Name *</label>
+          <input  type="text" name="first_name" maxlength="50" size="30">
+
+          <label for="last_name">Last Name *</label>
+          <input  type="text" name="last_name" maxlength="50" size="30">
+
+          <label for="email">Email Address *</label>
+          <input  type="text" name="email" maxlength="80" size="30">
+
+          <label for="telephone">Telephone Number</label>
+          <input  type="text" name="telephone" maxlength="30" size="30">
+
+          <label for="comments">Comments *</label>
+          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+
+          <input type="submit" class="submit-button" value="Submit">
+        </form>
+
+				<!-- <form id="contact" action="/mailer.php" method="post">
+					<input type="hidden" id="redirect" name="Redirect_URL" value="contactsent.php" />
 					<label>Name:</label>
 					<input id="MailFromName" maxlength="50" size="25" name="MailFromName" />
 					<label>Address 1:</label>
@@ -55,7 +71,7 @@
 					<textarea id="Comments" name="Comments" rows="4" cols="25"></textarea>
 					<input id="submitForm" type="submit" value="Submit" name="submitForm" />
 				</form>
-				
+ -->
 			</div> <!-- /sixcol -->
 		</div> <!-- /row -->
 	</section>

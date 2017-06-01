@@ -14,6 +14,7 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/form.css" type="text/css" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Gudea:400,700|Crete+Round' rel='stylesheet' type='text/css'>
     <script src="js/libs/modernizr-2.5.3.min.js"></script>
 </head>
