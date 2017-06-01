@@ -9,7 +9,7 @@ if(isset($_POST['email'])) {
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
-        echo "Please go try again: <a href="/contact.php" title="Contact Us" itemprop="url">Back to the Contact form</a><br /><br />";
+        echo "Please go try again: <a href='/contact.php' title='Contact Us' itemprop='url'>Back to the Contact form</a><br /><br />";
         die();
     }
 
